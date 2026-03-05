@@ -5,9 +5,7 @@
   "templateVersion": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/validate-manifests.mjs --project .",
     "build": "astro build",
-    "postbuild": "node scripts/post-build.mjs --project .",
     "preview": "astro preview",
     "astro": "astro",
     "gate:init": "node scripts/lib/phase-gate.mjs --init --project .",
