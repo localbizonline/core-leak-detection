@@ -1,0 +1,51 @@
+---
+import { Image } from 'astro:assets';
+import { site } from '../site.config';
+import { getHeadshot } from '../images';
+
+const headshot = getHeadshot();
+const hasHeadshot = headshot != null;
+const foundingYear = site.foundingYear;
+const yearsInBusiness = foundingYear ? new Date().getFullYear() - parseInt(foundingYear) : 0;
+---
+
+{hasHeadshot && (
+  <section class="py-16 md:py-20 bg-background">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+        <div class="flex-shrink-0">
+          <Image
+            src={headshot!}
+            alt={`${site.founder} — Owner of ${site.name}`}
+            width={200}
+            height={200}
+            class="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover shadow-lg border-4 border-accent/20"
+            loading="lazy"
+          />
+        </div>
+        <div class="text-center md:text-left">
+          <h2 class="text-2xl md:text-3xl font-[family-name:var(--font-display)] uppercase text-primary mb-2">
+            Meet {site.founder}
+          </h2>
+          <p class="text-accent font-bold text-sm uppercase tracking-wider mb-4">
+            Owner & Founder{yearsInBusiness > 0 ? ` — ${yearsInBusiness}+ Years Experience` : ''}
+          </p>
+          <p class="text-muted text-lg leading-relaxed font-[family-name:var(--font-body)]">
+            {site.description}
+          </p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+            <a
+              href={`tel:${site.phoneRaw}`}
+              class="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-light text-white px-6 py-3 rounded-md font-bold transition-colors duration-200"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1v3.49a1 1 0 01-1 1C10.07 22 2 13.93 2 3.01a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.19z"/>
+              </svg>
+              Call {site.phone}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+)}

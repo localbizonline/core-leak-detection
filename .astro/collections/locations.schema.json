@@ -1,0 +1,45 @@
+{
+  "$ref": "#/definitions/locations",
+  "definitions": {
+    "locations": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "cityGroup": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "suburbs": {
+          "type": "string"
+        },
+        "metaTitle": {
+          "type": "string"
+        },
+        "metaDescription": {
+          "type": "string"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "city",
+        "slug",
+        "cityGroup",
+        "phone",
+        "suburbs",
+        "metaTitle",
+        "metaDescription"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

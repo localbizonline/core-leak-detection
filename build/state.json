@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "startedAt": "2026-03-05T10:29:33.221Z",
+    "version": "2.0.0",
+    "slug": "core-leak-detection",
+    "recordId": "rec0TT8HMNmf4Ljcs"
+  },
+  "clientData": {
+    "companyName": "Core Leak Detection",
+    "niche": "plumbers",
+    "nicheRaw": "Plumbers, Leak Detection, Geysers",
+    "phone": "(079) 540-1802",
+    "whatsapp": "",
+    "email": "",
+    "ownerFirstName": "Stephan",
+    "ownerLastName": "Le Roux",
+    "yearStarted": 2020,
+    "city": "Cape Town",
+    "services": [
+      "Residential Leak Detection",
+      "Commercial Leak Detection",
+      "Industrial Leak Detection",
+      "Pool Leak Detection",
+      "Geyser Repairs",
+      "Geyser Installations"
+    ],
+    "serviceAreas": "Cape Town",
+    "differentiators": [
+      "Qualified and Licensed",
+      "Fast Response",
+      "Over 5 Years Experience",
+      "Top Quality"
+    ],
+    "aboutText": "Core Leak Detection offers plumbing, leak detection, and geyser services across Cape Town's Northern and Southern Suburbs, Somerset West, Strand, Stellenbosch, and surrounding areas. We handle residential, commercial, and industrial projects, including pool repairs and gas installations.\n\nChoose us for our attention to detail, customer satisfaction focus, and high-quality workmanship. We use the latest technology and methods, and offer a 2-year workmanship guarantee on our services.\n\nContact Core Leak Detection today for all your plumbing and leak detection needs. Our experienced and professional staff are ready to assist you with prompt and reliable service.\n",
+    "website": "www.coreleakdetection.co.za",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM9QkEWhRzB0R0Z8sFJ7oD8E",
+    "helloPeterUrl": "",
+    "facebook": "https://www.facebook.com/coreleakdetection",
+    "googleBusinessProfile": "https://www.google.com/maps/place/?q=place_id:ChIJM9QkEWhRzB0R0Z8sFJ7oD8E",
+    "googleRating": 4.7,
+    "logoUrl": "https://v5.airtableusercontent.com/v3/u/50/50/1772719200000/fORIEiw2sn3odOjUs6Ug5w/hazUj03uiNH1lbg5CZkwztQyrDNQfDwLEbtrQKm6Khv27NOnqebNKv_YngLH8ahOrdEC-RjLjQPYgwHhUeUJIr8nUacq5evRc6tM1zXVi7_kMZQRxKowIxrRSuTxGUL4lYVsXiJT-QOgyuIDDLH7BjFlXDcnq4wbRwRWHqwIxVE/H61N5-pjdDGCAgRNmcIp5eyOM6QUpkuS9hsFiyPwQio",
+    "galleryUrls": [],
+    "headshot": "",
+    "tagline": "",
+    "_recordId": "rec0TT8HMNmf4Ljcs"
+  },
+  "reviews": {
+    "items": [],
+    "averageRating": 0,
+    "totalCount": 0
+  },
+  "colors": {
+    "primary": "#b2caf7",
+    "accent": "#373737",
+    "primaryDark": "#172236",
+    "accentDark": "#262626",
+    "primaryLight": "#bacff8",
+    "accentLight": "#5d5d5d",
+    "logoPath": "/Users/jeremymartin/Documents/Cursor/Websites/site-builder-v2/builds/core-leak-detection/src/assets/images/logo/logo.png",
+    "source": "logo"
+  },
+  "design": {
+    "presetName": "trade-bold",
+    "description": "Bold, high-contrast for blue-collar trades",
+    "fonts": {
+      "display": "Archivo",
+      "body": "Inter"
+    },
+    "borderRadius": "4px",
+    "shadow": "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
+    "buttonStyle": "solid",
+    "heroLayout": "split",
+    "headingTransform": "uppercase"
+  },
+  "content": {
+    "generatedAt": "2026-03-05T10:32:38.462Z",
+    "sections": [
+      "homepage",
+      "about",
+      "contact",
+      "servicesPage",
+      "reviews",
+      "services"
+    ]
+  },
+  "images": {
+    "generated": [
+      "src/assets/images/home-hero/home-hero.jpg",
+      "src/assets/images/inner-hero/inner-hero.jpg",
+      "src/assets/images/inner-hero/about-hero.jpg",
+      "src/assets/images/inner-hero/contact-hero.jpg",
+      "src/assets/images/service-areas/service-areas.jpg",
+      "src/assets/images/services/residential-leak-detection/card/residential-leak-detection-card.jpg",
+      "src/assets/images/services/residential-leak-detection/hero/residential-leak-detection-hero.jpg",
+      "src/assets/images/services/residential-leak-detection/content/residential-leak-detection-content.jpg",
+      "src/assets/images/services/commercial-leak-detection/card/commercial-leak-detection-card.jpg",
+      "src/assets/images/services/commercial-leak-detection/hero/commercial-leak-detection-hero.jpg",
+      "src/assets/images/services/commercial-leak-detection/content/commercial-leak-detection-content.jpg",
+      "src/assets/images/services/industrial-leak-detection/card/industrial-leak-detection-card.jpg",
+      "src/assets/images/services/industrial-leak-detection/hero/industrial-leak-detection-hero.jpg",
+      "src/assets/images/services/industrial-leak-detection/content/industrial-leak-detection-content.jpg",
+      "src/assets/images/services/pool-leak-detection/card/pool-leak-detection-card.jpg",
+      "src/assets/images/services/pool-leak-detection/hero/pool-leak-detection-hero.jpg",
+      "src/assets/images/services/pool-leak-detection/content/pool-leak-detection-content.jpg",
+      "src/assets/images/services/geyser-repairs/card/geyser-repairs-card.jpg",
+      "src/assets/images/services/geyser-repairs/hero/geyser-repairs-hero.jpg",
+      "src/assets/images/services/geyser-repairs/content/geyser-repairs-content.jpg",
+      "src/assets/images/services/geyser-installations/card/geyser-installations-card.jpg",
+      "src/assets/images/services/geyser-installations/hero/geyser-installations-hero.jpg",
+      "src/assets/images/services/geyser-installations/content/geyser-installations-content.jpg"
+    ],
+    "failed": []
+  },
+  "deploy": null,
+  "qa": null
+}
