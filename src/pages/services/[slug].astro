@@ -27,7 +27,7 @@ const serviceGallery = getServiceGalleryImages(service.slug);
 
 <BaseLayout
   title={`${service.title} | ${site.name}`}
-  description={`${service.description} Serving ${site.address.city} & ${site.address.region}. Call ${site.phone}.`}
+  description={`${service.shortDescription} Serving ${site.address.city}. Call ${site.phone}.`}
 >
   <Breadcrumbs items={[{ label: 'Services', href: '/#services' }, { label: service.title }]} />
   <Hero

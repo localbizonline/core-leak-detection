@@ -659,8 +659,8 @@ export const site: SiteConfig = {
 
   // About page — REPLACE WITH CLIENT CONTENT
   about: {
-    metaTitle: "About Core Leak Detection | Plumbers & Leak Detection in Cape Town",
-    metaDescription: "Meet the team behind Core Leak Detection — Cape Town's qualified leak detection and plumbing specialists since 2020. Learn what sets us apart. Call (079) 540-1802.",
+    metaTitle: "About Core Leak Detection | Leak Detection Cape Town",
+    metaDescription: "Meet the team behind Core Leak Detection — Cape Town's qualified leak detection specialists since 2020. Call (079) 540-1802.",
     heroTitle: "About Core Leak Detection",
     heroSubtitle: "Serving Cape Town with quality workmanship since 2020",
     heading: "Our Story",
@@ -705,7 +705,7 @@ export const site: SiteConfig = {
   // Services overview page
   servicesPage: {
     metaTitle: "Our Services | Core Leak Detection Cape Town",
-    metaDescription: "Residential, commercial & industrial leak detection, pool leak detection, geyser repairs and installations in Cape Town. Call Core Leak Detection on (079) 540-1802.",
+    metaDescription: "Leak detection, geyser repairs & installations across Cape Town. Residential, commercial & industrial. Call (079) 540-1802.",
     heroTitle: "Our Services",
     heroSubtitle: "Professional services across Cape Town and surrounding areas",
   },
